@@ -1,0 +1,52 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contact .link {
+  color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* #212121 цвет основгог текста */
+/* #757575 цвет подписей */
+/* #2196F3 акцент */
+/* #FFFFFF белый */
+/* rgba(255, 255, 255, 0.4); контаткы */
