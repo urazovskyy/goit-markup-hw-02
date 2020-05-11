@@ -101,12 +101,27 @@ body {
   line-height: 1.18;
 }
 
-.text {
+.portfolio-text {
   color: var(--primary-bg-color);
+}
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.portfolio-section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .contact {
   color: var(--title-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* портфолио */
