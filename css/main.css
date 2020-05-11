@@ -25,14 +25,18 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 
 .contact .link {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 .contact .link:hover,
 .contact .link:focus {
   color: var(--accent-color);
 }
+
 .hero-title {
   color: var(--primary-bg-color);
 }
@@ -45,8 +49,15 @@ body {
   color: var(--title-text-color);
 }
 
-/* #212121 цвет основгог текста */
-/* #757575 цвет подписей */
-/* #2196F3 акцент */
-/* #FFFFFF белый */
-/* rgba(255, 255, 255, 0.4); контаткы */
+.text {
+  color: var(--primary-bg-color);
+}
+
+.contact {
+  color: var(--title-text-color);
+}
+
+.button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
